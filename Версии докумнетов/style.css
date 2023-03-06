@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/PTSans-Regular.woff2) format("woff2"),
+  url(/fonts/PTSans-Regular.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/PTSans-Bold.woff2) format("woff2"),
+  url(/fonts/PTSans-Bold.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url(/fonts/PTSans-Italic.woff2) format("woff2"),
+  url(/fonts/PTSans-Italic.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url(/fonts/PTSans-BoldItalic.woff2) format("woff2"),
+  url(/fonts/PTSans-BoldItalic.woff) format("woff");
+  font-display: swap;
+}
+body {
+  width: 1200px;
+  font-family: "PT Sans", "sans-serif";
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.navigation-link {
+  text-decoration: inherit;
+  color: inherit;
+}
+.welcome-img {
+  background-image: url(/images/index-background.jpg);
+  background-color: #E0EDF5;
+  background-size: 1200px 485px;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+.advantages-text {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advantages-text-small {
+  text-align: center;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.advantages-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.advantages-number {
+  text-align: center;
+}
+.advantages-description {
+  text-align: center;
+}
+.search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+.search-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+}
+.footer-subscribe {
+  background-image: url(images/backgroun-subscribe.jpg);
+  background-size: 1200px 411px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+.footer-phone {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+}
+.footer-developer {
+  text-align: right;
+}
